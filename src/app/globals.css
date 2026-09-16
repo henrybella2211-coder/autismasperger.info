@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f0f1ee;
+  --foreground: #1c1f1d;
+  --forest: #1f4d3d;
+  --forest-dark: #163628;
+  --slate: #3e5c76;
+  --slate-dark: #2e4457;
+  --amber: #c97a28;
+  --amber-dark: #a3611d;
+  --border-default: #c9cdc5;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-forest: var(--forest);
+  --color-forest-dark: var(--forest-dark);
+  --color-slate: var(--slate);
+  --color-slate-dark: var(--slate-dark);
+  --color-amber: var(--amber);
+  --color-amber-dark: var(--amber-dark);
+  --color-border-default: var(--border-default);
+  --font-sans: var(--font-barlow);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-barlow), Arial, Helvetica, sans-serif;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+:focus-visible {
+  outline: 2px solid var(--slate);
+  outline-offset: 2px;
+}
+
+.step-marker {
+  font-variant-numeric: tabular-nums;
+}
