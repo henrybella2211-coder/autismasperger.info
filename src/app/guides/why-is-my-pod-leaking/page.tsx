@@ -146,7 +146,13 @@ export default function Page() {
                   window that&apos;s easy to misjudge. It also helps to wait
                   a minute or two after filling before pulling on the device,
                   giving the coil time to fully saturate rather than flooding
-                  under the first few draws.
+                  under the first few draws. The same overfilling and
+                  flooding also explains a lot of{" "}
+                  <Link href="/guides/why-does-my-vape-gurgle-or-crackle">
+                    gurgling or crackling sounds
+                  </Link>
+                  , so it&apos;s worth checking both symptoms together if
+                  you&apos;re getting either one.
                 </p>
               ),
             },

@@ -243,6 +243,15 @@ export default function Page() {
               sitting against a coil that isn&apos;t being used.
             </li>
           </ul>
+          <p>
+            For a closer look at storage, including sealed spares, e-liquid
+            shelf life and packing your kit for a flight, see our full guide
+            to{" "}
+            <Link href="/guides/how-to-store-your-vape-kit-and-e-liquids">
+              storing your vape kit and e-liquids properly
+            </Link>
+            .
+          </p>
           <h2>Signs your kit is overdue a clean</h2>
           <p>
             A few practical signals are worth watching for rather than

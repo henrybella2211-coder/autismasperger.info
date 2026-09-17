@@ -67,6 +67,38 @@ export const ARTICLES: ArticleMeta[] = [
       alt: "Close-up of a USB-C charging cable connector against a plain background",
     },
   },
+  {
+    slug: "why-does-my-vape-gurgle-or-crackle",
+    title: "Why does my vape make a gurgling or crackling sound?",
+    metaDescription:
+      "What a gurgling or crackling vape sound usually means: coil flooding, overfilling, drawing too hard, device angle, and how to tell normal crackle from a real problem.",
+    category: "leaking",
+    excerpt:
+      "A light crackle is usually normal. A wet gurgle usually means the coil is flooded. Here's how to tell the difference and fix it.",
+    readTime: "7 min read",
+    lastUpdated: "Last updated 16 September 2026",
+    lastUpdatedISO: "2026-09-16",
+    image: {
+      src: "/images/vape-tank-and-mesh-coil-on-dark-surface.jpg",
+      alt: "A clear sub-ohm vape tank standing next to its mesh replacement coil on a dark wooden surface",
+    },
+  },
+  {
+    slug: "how-to-store-your-vape-kit-and-e-liquids",
+    title: "How to store your vape kit and e-liquids properly",
+    metaDescription:
+      "Practical storage advice for vape kits and e-liquid: avoiding heat and sunlight, upright storage, sealing spare coils, flying with lithium batteries, and signs an e-liquid bottle has gone off.",
+    category: "cleaning",
+    excerpt:
+      "Where and how you store your kit and e-liquid affects leaking, battery life and flavour. Simple habits that make a real difference.",
+    readTime: "8 min read",
+    lastUpdated: "Last updated 17 September 2026",
+    lastUpdatedISO: "2026-09-17",
+    image: {
+      src: "/images/vape-pod-kit-and-e-liquid-bottle.jpg",
+      alt: "A pink pod vape kit standing next to a small 10ml e-liquid bottle on a plain background",
+    },
+  },
 ];
 
 export function getArticleBySlug(slug: string) {
