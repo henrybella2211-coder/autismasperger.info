@@ -99,6 +99,23 @@ export const ARTICLES: ArticleMeta[] = [
       alt: "A pink pod vape kit standing next to a small 10ml e-liquid bottle on a plain background",
     },
   },
+  {
+    slug: "al-fakher-hypermax-prime-50k-care-and-troubleshooting",
+    title:
+      "Getting the most from your Al Fakher HyperMax Prime 50K: care and troubleshooting tips",
+    metaDescription:
+      "Practical care and troubleshooting tips for the Al Fakher HyperMax Prime 50K pod kit: charging the 1000mAh battery, keeping the snap-pod contacts clean, and telling a spent pod from a charging fault.",
+    category: "battery",
+    excerpt:
+      "Charging habits, contact care and knowing a spent pod from a charging fault, plus storage advice for this rechargeable snap-pod kit.",
+    readTime: "7 min read",
+    lastUpdated: "Last updated 18 September 2026",
+    lastUpdatedISO: "2026-09-18",
+    image: {
+      src: "/images/rechargeable-pod-vape-kit-standing-upright.jpg",
+      alt: "A rechargeable pod vape kit standing upright on a reflective surface",
+    },
+  },
 ];
 
 export function getArticleBySlug(slug: string) {

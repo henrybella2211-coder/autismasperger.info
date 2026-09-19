@@ -240,6 +240,15 @@ export default function Page() {
               done.
             </li>
           </ul>
+          <p>
+            If you&apos;re running a specific snap-pod device like the{" "}
+            <Link href="/guides/al-fakher-hypermax-prime-50k-care-and-troubleshooting">
+              Al Fakher HyperMax Prime 50K
+            </Link>
+            , its particular charging habits, contact cleaning and pod
+            replacement signs are covered in more detail in our
+            device-specific guide.
+          </p>
           <h2>When it's the end of the road</h2>
           <p>
             If you&apos;ve worked through every check above and the device
