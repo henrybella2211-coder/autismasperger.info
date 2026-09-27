@@ -100,6 +100,23 @@ export const ARTICLES: ArticleMeta[] = [
     },
   },
   {
+    slug: "why-switching-nic-salt-strength-can-affect-how-your-device-performs",
+    title:
+      "Why switching nic salt strength can affect how your device performs",
+    metaDescription:
+      "A harsh throat hit or an overly strong sensation isn't always a device fault. How nic salt strength interacts with coil and wattage, and how to tell a strength mismatch from a genuine device issue.",
+    category: "cleaning",
+    excerpt:
+      "A harsh or overly strong hit isn't always a broken device. Here's how nic salt strength interacts with your coil and wattage, and how to test which one is actually the problem.",
+    readTime: "7 min read",
+    lastUpdated: "Last updated 24 September 2026",
+    lastUpdatedISO: "2026-09-24",
+    image: {
+      src: "/images/pod-kit-with-nic-salt-e-liquid-bottle.jpg",
+      alt: "A pod vape kit standing upright next to a bottle of nicotine salt e-liquid",
+    },
+  },
+  {
     slug: "al-fakher-hypermax-prime-50k-care-and-troubleshooting",
     title:
       "Getting the most from your Al Fakher HyperMax Prime 50K: care and troubleshooting tips",

@@ -199,7 +199,13 @@ export default function Page() {
                     get a thinner-tasting draw as well as a wetter one.
                     Checking your device&apos;s recommended wattage range
                     against your e-liquid&apos;s VG content solves both
-                    symptoms at once.
+                    symptoms at once. The same wattage-and-coil relationship
+                    also affects how harsh or strong a hit feels, which is
+                    worth knowing if the issue is actually{" "}
+                    <Link href="/guides/why-switching-nic-salt-strength-can-affect-how-your-device-performs">
+                      a nicotine strength mismatch rather than a leak
+                    </Link>
+                    .
                   </p>
                 </>
               ),
